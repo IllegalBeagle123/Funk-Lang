@@ -1,6 +1,6 @@
 a = 1;
 b = 4;
 average = (args(0)+args(1))/2;
-c &= average(a,b);
-c >= 2;
-out &= c;
+av &= average(a,b);
+av $= av;
+out &= "The average is "+av;
